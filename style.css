@@ -1,0 +1,56 @@
+﻿body {
+    padding-top: 60px;
+}
+.esittely p {
+	font-family: "Exo";
+	font-weight: 200;
+	font-size: medium;
+}
+.vihreepohja {
+	background-color:#58A618;
+	color: white;
+}
+.vihreeteksti {
+	color:#58A618;
+}
+.valkoinen {
+	color: white;
+}
+.type-HL, .type-HLV, .line-V, .hide-Long-distance, .arrShowDEPARTURE, .depShowARRIVAL {
+	display: none;
+}
+.line-H, .line-R, .line-Y, .line-T, .line-Z {
+	background-color: #57a508;
+}
+.line-P, .line-I, .line-A, .line-E, .line-S, .line-U, .line-L, .line-K, .line-N, .causeM {
+	background-color: #8c4799;
+}
+.dif0, .dif1, .dif2, .dif3, .dif-1, .dif-2, .dif-3, .dif-4, .dif-5, .dif-6, .dif-7, .dif-8, .dif-9, .dif-10 {
+	background-color: #57a508;
+}
+.dif4, .dif5, .causeH {
+	background-color: #f0ad4e;
+}
+.dif6, .dif7, .dif8, .dif9, .dif10, .dif11, .dif12, .dif13, .dif14, .dif15, .dif16, .dif17, .dif18, .dif19, .dif20, .dif21, .dif22, .dif23, .dif24, .dif25, .dif26, .dif27, .dif28, .dif29, .dif30,
+.cancel, .type-T, .causeV {
+	background-color: #d9534f;
+}
+.starrow, .show-false, .hide-false, .hidelong-IC, .hidelong-PVV, .hidelong-P, .hidelong-H, .hidelong-PYO, .hidesm-HL, .hidesm-HSM {
+	display:none;
+}
+.HKI1V, .HKI2O, .HKI3V, .HKI4O, .HKI5V, .HKI6O, .HKI7V, .HKI8O, .HKI9V, .HKI10O, .HKI11V, .HKI12O, .HKI13V, .HKI14O, .HKI15V, .HKI16O, .HKI17V, .HKI18O, .HKI19V, 
+.PSL1V, .PSL2O, .PSL3V, .PSL4O, .PSL5V, .PSL5bO, .PSL6V, .PSL7O, .PSL8V, .PSL9O, 
+.KÄP4O, .KÄP3V, .OLK4V, .OLK3O, .PMK4V, .PMK3O, .ML4V, .ML3O, .TNA4V, .TNA3O, .PLA4V, .PLA3O, 
+.TKL1V, .TKL2O, .TKL3V, .TKL4O, .TKL5V, .TKL6O, 
+.HKH4V, .HKH3O, .KVY4V, .KVY3O, .RKL4V, .RKL3O, .KRS4V, .KRS3O, .SAV4V, .SAV3O, .KE1V, .KE4O, .KE5V, .KE6O, 
+.AIN1V, .AIN2O, .JP1V, .JP2O, .JP3V, .SAU1V, .SAU2O, .SAU3V, .PUR1V, .PUR2O, .NUP1V, .NUP2O, .JK1V, .JK2O, .JK3V, .HY1V, .HY4V, .HY5O, 
+.HAA1V, .HAA4O, .MLÄ1V, .MLÄ4O, .LH1V, .LH2O, .LH3V, .LH4O, 
+.RI1V, .RI4O, .RI5V, .RI6O, .RI7V, .RI8O, 
+.ILA4O, .ILA3V, .HPL4O, .HPL3V, .HPL2O, .HPL1V, .VMO4O, .VMO3V, .PJM4O, .PJM3V, .MÄK4O, .MÄK3V, 
+.LPV4V, .LPV3O, .LPV2V, .LPV1O, .KIL2V, .KIL1O, .KEA2V, .KEA1O, .KNI2V, .KNI1O, .KNI3V, .KVH2V, .KVH1O, .TRL2V, .TRL1O, .EPO1O, .EPO2V, .EPO3O, .EPO4V, .KLH1O, .KLH2V, .KLH3O, .MNK1O, .MNK2V, .LMA1O, .LMA2V, .MAS1O, .MAS2V, .JRS1O, .JRS2V, .TOL1O, .TOL2V,
+.KKN1O, .KKN2V, .KKN3O, .STI1O, .STI2V, .IKO1O,
+.KR1V, .KR2V, .KR3O, .KR4V, 
+.SLO1O, .SLO2V, .SLO3O, 
+.CEE, .CHH, .CII, .CJJ, .CKK, .CLL, .CMM, .COO, .CPP, .CRR, .CSS, .CTT, .CVV {
+	display: inline;
+}
