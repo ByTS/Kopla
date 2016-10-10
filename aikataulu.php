@@ -153,7 +153,7 @@
 	</div>
 	<div ng-hide="results.trainType=='HL'">
 	<span ng-repeat="x in results.journeySections">
-	<span ng-hide="x.length=='4'">{{x.beginTimeTableRow.stationShortCode}}-{{x.endTimeTableRow.stationShortCode}}<br></span>
+	<span ng-hide="x.length=='4'">Kokoonpano {{x.beginTimeTableRow.stationShortCode}}-{{x.endTimeTableRow.stationShortCode}}<br></span>
 		<b ng-repeat="y in x.locomotives">{{y.location}} {{y.locomotiveType}}<br></b>
 		<b ng-repeat="y in x.wagons">{{y.location}} {{y.wagonType}} 
 		<i ng-show="y.catering" class="fa fa-cutlery"></i>
