@@ -38,7 +38,7 @@
     <div class="container-fluid">
       <div class="row container">
       <div class="alert alert-info">Moi. Uhraisitko pari minuuttia <a href="https://fi.surveymonkey.com/r/KD5HDNT"><strong>käyttäjäkyselyyn</strong></a> KOPLAsta?</div>
-        <h2>Helsinki</h2>
+        <h2>Helsinki Asema</h2>
       </div>
       <div class="row" ng-controller="etusivu">
         <div class="col-md-6">
@@ -159,8 +159,6 @@
       <div class="col-md-12">
         <div class="alert alert-info hidden" role="alert">Moi. Uhraisitko pari minuuttia <a href="https://fi.surveymonkey.com/r/KD5HDNT"><strong>käyttäjäkyselyyn</strong></a> KOPLAsta?</div>
         <p>KOPLA on junaliikenteen aikataulujen tarkasteluun suunniteltu sovellus. KOPLA näyttää reaaliaikaisesti junan aikataulun, toteutuneen aikataulun sekä kokoonpanon.</p>
-        <p>Voit hakea yläpalkin hakutoiminnolla tiettyä junaa tai asemaa. Haku hyväksyy junien osalta junanumeron ilman kirjaintunnuksia, liikennepaikkojen osalta virallisen nimen, yleistyneen (tai ei-niin yleistyneen) lempinimen tai lyhenteen.</p>
-        <p>Huomioithan, että rautateillä lyhenteet eroavat joiltakin osin yleisistä lyhenteistä, esimerkiksi Tampere tunnetaan lyhenteellä <code>TPE</code>, eikä <code>TRE</code>. Helpotuksen vuoksi kone ymmärtää myös Mansesterit sun muut, rakkaalla lapsellahan on monta nimeä.</p>
         <p>Otan mielelläni palautetta vastaan, ensisijaisesti <a href="http://www.facebook.com/KOPLAapp">KOPLAn Facebook-sivun</a> kautta, myös sähköpostitse tavoittaa tehokkaasti. Tavoitteena kuitenkin on toteuttaa työtä sekä matkustamista helpottava sovellus!</p>
         <div class="alert alert-danger" role="alert">KOPLA ei tarjoa vahvistettua aikataulua, joten sitä EI saa käyttää JT-tehtävissä!</div>
         <div class="alert alert-info">
