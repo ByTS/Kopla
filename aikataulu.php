@@ -145,7 +145,7 @@
     </ul>
           </div>
   </div>
-<div ng-controller="kokoonpano">
+<div ng-controller="kokoonpano" class="col-md-6">
 	<div ng-show="results.trainType=='HL'">
 	<span ng-repeat="x in results.journeySections">
 		<b ng-repeat="y in x.locomotives | limitTo:-1">{{y.location}} {{y.locomotiveType}}</b>
