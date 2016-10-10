@@ -1,6 +1,5 @@
 <nav class="navbar navbar-fixed-top vihreepohja" ng-controller="kello">
-  <a class="navbar-brand vihreepohja" href="http://byts.fi/kopla">KOPLA</a>
-  <span class="navbar-brand">{{ kello | date:'HH:mm:ss'}}</span>
+  <a class="navbar-brand vihreepohja" href="http://byts.fi/kopla">KOPLA {{ kello | date:'HH:mm:ss'}}</a>
     <form class="navbar-form" role="search" action="aikataulu.php" method="get">
       <div class="input-group col-xs-6 pull-right">
         <input class="form-control" type="number" name="n" placeholder="Haku...">
