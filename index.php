@@ -37,7 +37,6 @@
     <?php include 'incs/nav.php';?>
     <div class="container-fluid">
       <div class="row container">
-      <div class="alert alert-info">Moi. Uhraisitko pari minuuttia <a href="https://fi.surveymonkey.com/r/KD5HDNT"><strong>käyttäjäkyselyyn</strong></a> KOPLAsta?</div>
         <h2>Helsinki Asema</h2>
       </div>
       <div class="row" ng-controller="etusivu">
