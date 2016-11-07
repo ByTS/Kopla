@@ -21,7 +21,7 @@
 <script>
     var app = angular.module("aikataulu", []);
     app.controller("liveTrains", function($scope, $http) {
-      $http.get('http://rata.digitraffic.fi/api/v1/live-trains/<?php echo $juna;?>').
+      $http.get('https://umbrella.digipalvelutehdas.fi/rautatieliikenne/api/v1/live-trains/<?php echo $juna;?>?api_key=j8Q62JIgAIH56qjL91JModpovcgSfEo40KpZBZRH').
       success(function(data, status, headers, config) {
         $scope.rows = data;
         });
