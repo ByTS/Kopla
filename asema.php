@@ -25,12 +25,12 @@ app.controller("yhteydet", function($scope, $http, orderByFilter) {
       $scope.sortedRows = orderByFilter($scope.rows, '+scheduledTime');
       console.log($scope.sortedRows);
       });
+	  $http.get('stations.json').
+      success(function(data, status, headers, config) {
+        $scope.stations = data;
+        });
 		});
 app.controller("asemat", function($scope, $http) {
-  $http.get('https://rata.digitraffic.fi/api/v1/metadata/stations').
-    success(function(data, status, headers, config) {
-      $scope.stations = data;
-    });
 	$http.get('stations.json').
       success(function(data, status, headers, config) {
         $scope.stations = data;
