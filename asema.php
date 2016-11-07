@@ -29,6 +29,7 @@ app.controller("yhteydet", function($scope, $http, orderByFilter) {
       success(function(data, status, headers, config) {
         $scope.stations = data;
         });
+		});
 app.controller("asemat", function($scope, $http) {
   $http.get('https://rata.digitraffic.fi/api/v1/metadata/stations').
     success(function(data, status, headers, config) {
