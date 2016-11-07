@@ -26,7 +26,7 @@
       success(function(data, status, headers, config) {
         $scope.rows = data;
         });
-		$http.get('https://rata.digitraffic.fi/api/v1/metadata/stations').
+		$http.get('stations.json').
       success(function(data, status, headers, config) {
         $scope.stations = data;
         });
