@@ -52,11 +52,7 @@ app.controller("asemat", function($scope, $http) {
 		</div>
 		<div class="container-fluid">
 			<span ng-controller="asemat">
-				<h2><span ng-hide="!(stations| filter:{'stationShortCode':'<?php echo $as;?>'}: true).length">Lähtevät,</span>
-					<small class="text-muted">
-						<span ng-repeat="x in stations | filter:{'stationShortCode':'<?php echo $as;?>'}: true | groupBy: !'scheduledTime'">{{x.stationName}} ({{x.stationShortCode}})</span>
-						<div ng-show="!(stations| filter:{'stationShortCode':'<?php echo $as;?>'}: true).length">Liikennepaikkaa ei valitettavasti löydy. Tarkista oikeinkirjoitus?<br>Huomioi, että mikäli haet tiettyä junaa ja jouduit tälle sivulle, syötä pelkästään numerot ilman etukirjainta.</div>
-					</small>
+				<h2><span ng-hide="!(stations| filter:{'stationShortCode':'<?php echo $as;?>'}: true).length">Lähtevät, <span ng-repeat="x in stations | filter:{'stationShortCode':'<?php echo $as;?>'}: true | groupBy: !'scheduledTime'">{{x.stationName}} ({{x.stationShortCode}})</span></span>
 				</h2>
 			</span>
 			<table class="table table-striped table-sm" ng-controller="yhteydet" ng-hide="!rows.length">
