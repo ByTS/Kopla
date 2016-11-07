@@ -1,45 +1,5 @@
 var app = angular.module("kopla", []);
 
-app.factory("paikannusPalvelu", ['$q', '$window', '$rootScope', function ($q, $window, $rootScope) {
-    return function () {
-        var deferred = $q.defer();
-
-        if (!$window.navigator) {
-            $rootScope.$apply(function() {
-                deferred.reject(new Error("Paikannusta ei tueta."));
-            });
-        } else {
-            $window.navigator.geolocation.getCurrentPosition(function (position) {
-                $rootScope.$apply(function() {
-                    deferred.resolve(position);
-                });
-            }, function (error) {
-                $rootScope.$apply(function() {
-                    deferred.reject(error);
-                });
-            });
-        }
-
-        return deferred.promise;
-    }
-}]);
-
-app.controller('paikannus', ['$scope', 'paikannusPalvelu', function ($scope, geolocation) {
-    $scope.position = null;
-    $scope.message = "Paikannetaan...";
-    $scope.disable = "true";
-
-    geolocation().then(function (position) {
-        $scope.position = position;
-        console.log($scope.position);
-        $scope.message = "Lähin asema";
-        $scope.disable = "false";
-    }, function (reason) {
-        $scope.message = "Ei voitu selvittää.";
-    });
-
-}]);
-
 app.controller('kello', function($scope, $interval) {
   var tick = function() {
     $scope.kello = Date.now();
