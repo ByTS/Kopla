@@ -24,6 +24,10 @@ app.controller("toteuma", function($scope, $http) {
 		success(function(data, status, headers, config) {
 			$scope.rows = data;
 		});
+		$http.get('stations.json').
+      success(function(data, status, headers, config) {
+        $scope.stations = data;
+        });
 		});
             app.controller('kello', function($scope, $interval) {
   var tick = function() {
