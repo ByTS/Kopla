@@ -868,419 +868,143 @@
 		"stationName": "Niirala",
 		"stationShortCode": "NRL",
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Niirala-raja",
 		"stationShortCode": "NRLR",
-		"stationUICCode": 445,
-		"countryCode": "FI",
-		"longitude": 30.63520740593547,
-		"latitude": 62.17109765760528
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Niittylahti",
 		"stationShortCode": "NTH",
-		"stationUICCode": 917,
-		"countryCode": "FI",
-		"longitude": 29.84852271475043,
-		"latitude": 62.51310930806942
 	}, {
-		"passengerTraffic": true,
-		"type": "STOPPING_POINT",
 		"stationName": "Nikkilä",
 		"stationShortCode": "NLÄ",
-		"stationUICCode": 22,
-		"countryCode": "FI",
-		"longitude": 25.26709690184649,
-		"latitude": 60.38247623486703
 	}, {
-		"passengerTraffic": true,
-		"type": "STATION",
 		"stationName": "Nivala",
 		"stationShortCode": "NVL",
-		"stationUICCode": 328,
-		"countryCode": "FI",
-		"longitude": 24.96130874730654,
-		"latitude": 63.93793188822584
 	}, {
-		"passengerTraffic": true,
-		"type": "STATION",
 		"stationName": "Nokia",
 		"stationShortCode": "NOA",
-		"stationUICCode": 181,
-		"countryCode": "FI",
-		"longitude": 23.49901257011566,
-		"latitude": 61.48162089882020
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Nummela",
 		"stationShortCode": "NM",
-		"stationUICCode": 84,
-		"countryCode": "FI",
-		"longitude": 24.31711023318116,
-		"latitude": 60.32888068549408
 	}, {
-		"passengerTraffic": true,
-		"type": "STOPPING_POINT",
 		"stationName": "Nuppulinna",
 		"stationShortCode": "NUP",
-		"stationUICCode": 565,
-		"countryCode": "FI",
-		"longitude": 25.01923386124053,
-		"latitude": 60.52953733166319
 	}, {
-		"passengerTraffic": true,
-		"type": "STATION",
 		"stationName": "Nurmes",
 		"stationShortCode": "NRM",
-		"stationUICCode": 472,
-		"countryCode": "FI",
-		"longitude": 29.13964809524903,
-		"latitude": 63.54240718848218
 	}, {
-		"passengerTraffic": false,
-		"type": "TURNOUT_IN_THE_OPEN_LINE",
 		"stationName": "Närpiö",
 		"stationShortCode": "NÄR",
-		"stationUICCode": 268,
-		"countryCode": "FI",
-		"longitude": 21.36288428629279,
-		"latitude": 62.46912319047021
 	}, {
-		"passengerTraffic": false,
-		"type": "TURNOUT_IN_THE_OPEN_LINE",
 		"stationName": "Ohenmäki",
 		"stationShortCode": "OHM",
-		"stationUICCode": 1190,
-		"countryCode": "FI",
-		"longitude": 27.26816328318058,
-		"latitude": 63.49633214078571
 	}, {
-		"passengerTraffic": true,
-		"type": "STATION",
 		"stationName": "Oitti",
 		"stationShortCode": "OI",
-		"stationUICCode": 92,
-		"countryCode": "FI",
-		"longitude": 25.02177663623284,
-		"latitude": 60.79008217345248
 	}, {
-		"passengerTraffic": false,
-		"type": "TURNOUT_IN_THE_OPEN_LINE",
 		"stationName": "Olli",
 		"stationShortCode": "OLLI",
-		"stationUICCode": 570,
-		"countryCode": "FI",
-		"longitude": 25.37482106248185,
-		"latitude": 60.38291012878976
 	}, {
-		"passengerTraffic": false,
-		"type": "TURNOUT_IN_THE_OPEN_LINE",
 		"stationName": "Onttola",
 		"stationShortCode": "ONT",
-		"stationUICCode": 443,
-		"countryCode": "FI",
-		"longitude": 29.70296572373675,
-		"latitude": 62.63649982419007
 	}, {
-		"passengerTraffic": false,
-		"type": "TURNOUT_IN_THE_OPEN_LINE",
 		"stationName": "Orimattila",
 		"stationShortCode": "OM",
-		"stationUICCode": 109,
-		"countryCode": "FI",
-		"longitude": 25.74949971613381,
-		"latitude": 60.81476991705373
 	}, {
-		"passengerTraffic": true,
-		"type": "STATION",
 		"stationName": "Orivesi",
 		"stationShortCode": "OV",
-		"stationUICCode": 190,
-		"countryCode": "FI",
-		"longitude": 24.36825855634620,
-		"latitude": 61.65071908173213
 	}, {
-		"passengerTraffic": true,
-		"type": "STOPPING_POINT",
 		"stationName": "Orivesi keskusta",
 		"stationShortCode": "OVK",
-		"stationUICCode": 1316,
-		"countryCode": "FI",
-		"longitude": 24.37004886395428,
-		"latitude": 61.67453843984684
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Otanmäki",
 		"stationShortCode": "OTM",
-		"stationUICCode": 385,
-		"countryCode": "FI",
-		"longitude": 27.09387552935176,
-		"latitude": 64.11362339183061
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Otava",
 		"stationShortCode": "OT",
-		"stationUICCode": 545,
-		"countryCode": "FI",
-		"longitude": 27.07293578414057,
-		"latitude": 61.64141827268210
 	}, {
-		"passengerTraffic": true,
-		"type": "STATION",
 		"stationName": "Oulainen",
 		"stationShortCode": "OU",
-		"stationUICCode": 322,
-		"countryCode": "FI",
-		"longitude": 24.82147000231099,
-		"latitude": 64.27115016072229
 	}, {
-		"passengerTraffic": true,
-		"type": "STATION",
 		"stationName": "Oulu",
 		"stationShortCode": "OL",
-		"stationUICCode": 370,
-		"countryCode": "FI",
-		"longitude": 25.48694443620122,
-		"latitude": 65.01436484398653
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Oulu Nokela",
 		"stationShortCode": "NOK",
-		"stationUICCode": 1195,
-		"countryCode": "FI",
-		"longitude": 25.48033920948532,
-		"latitude": 64.99131330827448
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Oulu Oritkari",
 		"stationShortCode": "ORI",
-		"stationUICCode": 1196,
-		"countryCode": "FI",
-		"longitude": 25.47452900434554,
-		"latitude": 65.00135974162235
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Oulu tavara",
 		"stationShortCode": "OLT",
-		"stationUICCode": 1197,
-		"countryCode": "FI",
-		"longitude": 25.47426780345459,
-		"latitude": 65.00296356963776
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Oulu Tuira",
 		"stationShortCode": "TUA",
-		"stationUICCode": 339,
-		"countryCode": "FI",
-		"longitude": 25.47576337348152,
-		"latitude": 65.03068409219094
 	}, {
-		"passengerTraffic": true,
-		"type": "STATION",
 		"stationName": "Oulunkylä",
 		"stationShortCode": "OLK",
-		"stationUICCode": 15,
-		"countryCode": "FI",
-		"longitude": 24.96850881268564,
-		"latitude": 60.22926457931425
 	}, {
-		"passengerTraffic": true,
-		"type": "STATION",
 		"stationName": "Paimenportti",
 		"stationShortCode": "PTI",
-		"stationUICCode": 768,
-		"countryCode": "FI",
-		"longitude": 26.91814366085923,
-		"latitude": 60.47606337343475
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Paimio",
 		"stationShortCode": "PO",
-		"stationUICCode": 128,
-		"countryCode": "FI",
-		"longitude": 22.68556775580264,
-		"latitude": 60.45960495908250
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Palopuro",
 		"stationShortCode": "PLP",
-		"stationUICCode": 562,
-		"countryCode": "FI",
-		"longitude": 24.90661979797415,
-		"latitude": 60.60167449013571
 	}, {
-		"passengerTraffic": true,
-		"type": "STATION",
 		"stationName": "Paltamo",
 		"stationShortCode": "PTO",
-		"stationUICCode": 379,
-		"countryCode": "FI",
-		"longitude": 27.82405642228581,
-		"latitude": 64.40231394217331
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Pankakoski",
 		"stationShortCode": "PAS",
-		"stationUICCode": 935,
-		"countryCode": "FI",
-		"longitude": 30.12832140263593,
-		"latitude": 63.32276143459350
 	}, {
-		"passengerTraffic": true,
-		"type": "STATION",
 		"stationName": "Parikkala",
 		"stationShortCode": "PAR",
-		"stationUICCode": 510,
-		"countryCode": "FI",
-		"longitude": 29.50526085780964,
-		"latitude": 61.55907216661326
 	}, {
-		"passengerTraffic": true,
-		"type": "STATION",
 		"stationName": "Parkano",
 		"stationShortCode": "PKO",
-		"stationUICCode": 215,
-		"countryCode": "FI",
-		"longitude": 23.07806350568255,
-		"latitude": 62.05294521875695
 	}, {
-		"passengerTraffic": true,
-		"type": "STATION",
 		"stationName": "Parola",
 		"stationShortCode": "PRL",
-		"stationUICCode": 49,
-		"countryCode": "FI",
-		"longitude": 24.36653106357095,
-		"latitude": 61.05040794545371
 	}, {
-		"passengerTraffic": true,
-		"type": "STATION",
 		"stationName": "Pasila",
 		"stationShortCode": "PSL",
-		"stationUICCode": 10,
-		"countryCode": "FI",
-		"longitude": 24.93378787904055,
-		"latitude": 60.19903408296963
 	}, {
-		"passengerTraffic": true,
-		"type": "STATION",
 		"stationName": "Pasila autojuna-asema",
 		"stationShortCode": "PAU",
-		"stationUICCode": 1328,
-		"countryCode": "FI",
-		"longitude": 24.93584115642040,
-		"latitude": 60.20741926594994
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Pasila tavara",
 		"stationShortCode": "PSLT",
-		"stationUICCode": 1034,
-		"countryCode": "FI",
-		"longitude": 24.93621447499272,
-		"latitude": 60.21239208127861
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Pelkola",
 		"stationShortCode": "PA",
-		"stationUICCode": 1055,
-		"countryCode": "FI",
-		"longitude": 28.81579196929271,
-		"latitude": 61.13461814970317
 	}, {
-		"passengerTraffic": true,
-		"type": "STATION",
 		"stationName": "Pello",
 		"stationShortCode": "PEL",
-		"stationUICCode": 356,
-		"countryCode": "FI",
-		"longitude": 23.99350002261649,
-		"latitude": 66.78734735541121
 	}, {
-		"passengerTraffic": false,
-		"type": "TURNOUT_IN_THE_OPEN_LINE",
 		"stationName": "Peltosalmi",
 		"stationShortCode": "PMI",
-		"stationUICCode": 882,
-		"countryCode": "FI",
-		"longitude": 27.24772062622946,
-		"latitude": 63.52219809646767
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Peräseinäjoki",
 		"stationShortCode": "PSJ",
-		"stationUICCode": 687,
-		"countryCode": "FI",
-		"longitude": 22.94160075527913,
-		"latitude": 62.55053104823900
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Pesiökylä",
 		"stationShortCode": "PSK",
-		"stationUICCode": 393,
-		"countryCode": "FI",
-		"longitude": 28.57183685613167,
-		"latitude": 64.92801996728949
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
-		"stationName": "Petroskoi / Petrozavodsk",
+		"stationName": "Petroskoi",
 		"stationShortCode": "PTK",
-		"stationUICCode": 1000,
-		"countryCode": "RU",
-		"longitude": 32.17680813127959,
-		"latitude": 62.11698000010055
 	}, {
-		"passengerTraffic": true,
-		"type": "STATION",
 		"stationName": "Petäjävesi",
 		"stationShortCode": "PVI",
-		"stationUICCode": 237,
-		"countryCode": "FI",
-		"longitude": 25.18992095413212,
-		"latitude": 62.25783497375610
 	}, {
-		"passengerTraffic": true,
-		"type": "STATION",
 		"stationName": "Pieksämäki",
 		"stationShortCode": "PM",
-		"stationUICCode": 400,
-		"countryCode": "FI",
-		"longitude": 27.16896184523164,
-		"latitude": 62.30211285231618
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Pieksämäki lajittelu",
 		"stationShortCode": "PMLA",
-		"stationUICCode": 1210,
-		"countryCode": "FI",
-		"longitude": 27.17368509461031,
-		"latitude": 62.32531049317705
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Pieksämäki tavara",
 		"stationShortCode": "PMT",
-		"stationUICCode": 1211,
-		"countryCode": "FI",
-		"longitude": 27.17761224073023,
-		"latitude": 62.33674117798063
 	}, {
 		"passengerTraffic": false,
 		"type": "STATION",
