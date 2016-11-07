@@ -20,6 +20,7 @@
   <script src="app.js"></script>
 <script>
     var app = angular.module("aikataulu", []);
+	
     app.controller("liveTrains", function($scope, $http) {
       $http.get('http://rata.digitraffic.fi/api/v1/live-trains/<?php echo $juna;?>').
       success(function(data, status, headers, config) {
