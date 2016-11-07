@@ -356,7 +356,8 @@
 		"stationName": "Karkku",
 		"stationShortCode": "KRU"
 	}, {
-		"stationName": "Karviainen"
+		"stationName": "Karviainen",
+		"stationShortCode":"KAR"
 	}, {
 		"stationName": "Kaskinen",
 		"stationShortCode": "KSK"
@@ -781,257 +782,91 @@
 		"stationName": "Muhos",
 		"stationShortCode": "MH"
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Mukkula",
-		"stationShortCode": "MUK",
-		"stationUICCode": 594,
-		"countryCode": "FI",
-		"longitude": 25.65853169678020,
-		"latitude": 61.00610378845409
+		"stationShortCode": "MUK"
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Murtomäki",
 		"stationShortCode": "MUR",
 		"stationUICCode": 386,
 		"countryCode": "FI",
-		"longitude": 27.58133544723526,
-		"latitude": 64.06598944304325
 	}, {
-		"passengerTraffic": false,
-		"type": "TURNOUT_IN_THE_OPEN_LINE",
 		"stationName": "Mustio",
 		"stationShortCode": "MSO",
-		"stationUICCode": 78,
-		"countryCode": "FI",
-		"longitude": 23.86824142044064,
-		"latitude": 60.14037668682120
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Mustolan satama",
 		"stationShortCode": "MST",
-		"stationUICCode": 77,
-		"countryCode": "FI",
-		"longitude": 28.33810454411890,
-		"latitude": 61.05624991064256
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Muukko",
 		"stationShortCode": "MKO",
-		"stationUICCode": 1180,
-		"countryCode": "FI",
-		"longitude": 28.34341647276260,
-		"latitude": 61.08851303668337
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Muurame",
 		"stationShortCode": "MUU",
-		"stationUICCode": 433,
-		"countryCode": "FI",
-		"longitude": 25.65143200040300,
-		"latitude": 62.11124413455745
 	}, {
-		"passengerTraffic": true,
-		"type": "STATION",
 		"stationName": "Muurola",
 		"stationShortCode": "MUL",
-		"stationUICCode": 363,
-		"countryCode": "FI",
-		"longitude": 25.37590919112398,
-		"latitude": 66.37338741576764
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Myllykangas",
 		"stationShortCode": "MYS",
-		"stationUICCode": 1183,
-		"countryCode": "FI",
-		"longitude": 25.27330887920169,
-		"latitude": 65.53792760762170
 	}, {
-		"passengerTraffic": true,
-		"type": "STOPPING_POINT",
 		"stationName": "Myllykoski",
 		"stationShortCode": "MKI",
-		"stationUICCode": 536,
-		"countryCode": "FI",
-		"longitude": 26.78878740841026,
-		"latitude": 60.77027963498980
 	}, {
-		"passengerTraffic": true,
-		"type": "STOPPING_POINT",
 		"stationName": "Myllymäki",
 		"stationShortCode": "MY",
-		"stationUICCode": 263,
-		"countryCode": "FI",
-		"longitude": 24.28114871286478,
-		"latitude": 62.52572704685967
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Myllyoja",
 		"stationShortCode": "MYL",
-		"stationUICCode": 606,
-		"countryCode": "FI",
-		"longitude": 25.99056018217938,
-		"latitude": 61.16410976800866
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Mynttilä",
 		"stationShortCode": "MYT",
-		"stationUICCode": 543,
-		"countryCode": "FI",
-		"longitude": 26.92518933002756,
-		"latitude": 61.48780910334277
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Mynämäki",
 		"stationShortCode": "MYN",
-		"stationUICCode": 123,
-		"countryCode": "FI",
-		"longitude": 21.96332498481038,
-		"latitude": 60.65063896226259
 	}, {
-		"passengerTraffic": true,
-		"type": "STATION",
 		"stationName": "Myyrmäki",
 		"stationShortCode": "MYR",
-		"stationUICCode": 660,
-		"countryCode": "FI",
-		"longitude": 24.85512645024951,
-		"latitude": 60.26138729030786
 	}, {
-		"passengerTraffic": true,
-		"type": "STOPPING_POINT",
 		"stationName": "Mäkkylä",
 		"stationShortCode": "MÄK",
-		"stationUICCode": 693,
-		"countryCode": "FI",
-		"longitude": 24.84335285943196,
-		"latitude": 60.22135166760783
 	}, {
-		"passengerTraffic": true,
-		"type": "STATION",
 		"stationName": "Mäntsälä",
 		"stationShortCode": "MLÄ",
-		"stationUICCode": 27,
-		"countryCode": "FI",
-		"longitude": 25.30804882689838,
-		"latitude": 60.64747215170215
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Mänttä",
 		"stationShortCode": "MÄN",
-		"stationUICCode": 198,
-		"countryCode": "FI",
-		"longitude": 24.64722941809923,
-		"latitude": 62.02979598624717
 	}, {
-		"passengerTraffic": true,
-		"type": "STATION",
 		"stationName": "Mäntyharju",
 		"stationShortCode": "MR",
-		"stationUICCode": 544,
-		"countryCode": "FI",
-		"longitude": 26.88301862272029,
-		"latitude": 61.42161667696219
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Mäntyluoto",
 		"stationShortCode": "MN",
-		"stationUICCode": 223,
-		"countryCode": "FI",
-		"longitude": 21.52698594477221,
-		"latitude": 61.59611685869375
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Naantali",
 		"stationShortCode": "NNL",
-		"stationUICCode": 124,
-		"countryCode": "FI",
-		"longitude": 22.03286990105007,
-		"latitude": 60.46627942259062
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Naarajärvi",
 		"stationShortCode": "NRI",
-		"stationUICCode": 895,
-		"countryCode": "FI",
-		"longitude": 27.04679210978041,
-		"latitude": 62.28399494703678
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Nakkila",
 		"stationShortCode": "NAL",
-		"stationUICCode": 672,
-		"countryCode": "FI",
-		"longitude": 21.96877874683678,
-		"latitude": 61.38755327504111
 	}, {
-		"passengerTraffic": true,
-		"type": "STOPPING_POINT",
 		"stationName": "Nastola",
 		"stationShortCode": "NSL",
-		"stationUICCode": 595,
-		"countryCode": "FI",
-		"longitude": 25.93630501706583,
-		"latitude": 60.93588775548591
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Niemenpää",
 		"stationShortCode": "NMP",
-		"stationUICCode": 1185,
-		"countryCode": "FI",
-		"longitude": 23.92114137041001,
-		"latitude": 66.16799309400896
 	}, {
-		"passengerTraffic": false,
-		"type": "TURNOUT_IN_THE_OPEN_LINE",
 		"stationName": "Niinimaa",
 		"stationShortCode": "NII",
-		"stationUICCode": 285,
-		"countryCode": "FI",
-		"longitude": 23.42045465402991,
-		"latitude": 62.64327467094802
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Niinimäki",
 		"stationShortCode": "NMÄ",
-		"stationUICCode": 1324,
-		"countryCode": "FI",
-		"longitude": 26.39036665297726,
-		"latitude": 60.87663180347209
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Niinisalo",
 		"stationShortCode": "NNS",
-		"stationUICCode": 227,
-		"countryCode": "FI",
-		"longitude": 22.48131930955572,
-		"latitude": 61.84536930103178
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Niirala",
 		"stationShortCode": "NRL",
-		"stationUICCode": 446,
-		"countryCode": "FI",
-		"longitude": 30.60318246456116,
-		"latitude": 62.17576333509505
 	}, {
 		"passengerTraffic": false,
 		"type": "STATION",
