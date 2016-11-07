@@ -25,16 +25,16 @@ app.controller("yhteydet", function($scope, $http, orderByFilter) {
       $scope.sortedRows = orderByFilter($scope.rows, '+scheduledTime');
       console.log($scope.sortedRows);
       });
-      $http.get('stations.json').
-      success(function(data, status, headers, config) {
-        $scope.stations = data;
-        });
 		});
 app.controller("asemat", function($scope, $http) {
   $http.get('https://rata.digitraffic.fi/api/v1/metadata/stations').
     success(function(data, status, headers, config) {
       $scope.stations = data;
     });
+	$http.get('stations.json').
+      success(function(data, status, headers, config) {
+        $scope.stations = data;
+        });
     });
             app.controller('kello', function($scope, $interval) {
   var tick = function() {
@@ -78,7 +78,6 @@ app.controller("asemat", function($scope, $http) {
 						<td><span class="show-{{x.cancelled}} label label-danger">Peruttu</span><span ng-repeat="y in x.timeTableRows | filter:{'stationShortCode':'<?php echo $as;?>', 'type':'DEPARTURE'}: true | limitTo:1">{{y.commercialTrack}}</span></td>
         			</tr>				</tbody>
 			</table>
-			<h4><small class="text-muted">Junat toistaiseksi vielä numerojärjestyksessä.</small></h4>
 				<br><br>
 		<nav class="navbar navbar-fixed-bottom navbar-light bg-faded vihreepohja">
 			<a class="nav-item valkoinen">Liikennetiedot</a>
