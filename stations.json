@@ -786,288 +786,286 @@
 		"stationShortCode": "MUK"
 	}, {
 		"stationName": "Murtomäki",
-		"stationShortCode": "MUR",
-		"stationUICCode": 386,
-		"countryCode": "FI",
+		"stationShortCode": "MUR"
 	}, {
 		"stationName": "Mustio",
-		"stationShortCode": "MSO",
+		"stationShortCode": "MSO"
 	}, {
 		"stationName": "Mustolan satama",
-		"stationShortCode": "MST",
+		"stationShortCode": "MST"
 	}, {
 		"stationName": "Muukko",
-		"stationShortCode": "MKO",
+		"stationShortCode": "MKO"
 	}, {
 		"stationName": "Muurame",
-		"stationShortCode": "MUU",
+		"stationShortCode": "MUU"
 	}, {
 		"stationName": "Muurola",
-		"stationShortCode": "MUL",
+		"stationShortCode": "MUL"
 	}, {
 		"stationName": "Myllykangas",
-		"stationShortCode": "MYS",
+		"stationShortCode": "MYS"
 	}, {
 		"stationName": "Myllykoski",
-		"stationShortCode": "MKI",
+		"stationShortCode": "MKI"
 	}, {
 		"stationName": "Myllymäki",
-		"stationShortCode": "MY",
+		"stationShortCode": "MY"
 	}, {
 		"stationName": "Myllyoja",
-		"stationShortCode": "MYL",
+		"stationShortCode": "MYL"
 	}, {
 		"stationName": "Mynttilä",
-		"stationShortCode": "MYT",
+		"stationShortCode": "MYT"
 	}, {
 		"stationName": "Mynämäki",
-		"stationShortCode": "MYN",
+		"stationShortCode": "MYN"
 	}, {
 		"stationName": "Myyrmäki",
-		"stationShortCode": "MYR",
+		"stationShortCode": "MYR"
 	}, {
 		"stationName": "Mäkkylä",
-		"stationShortCode": "MÄK",
+		"stationShortCode": "MÄK"
 	}, {
 		"stationName": "Mäntsälä",
-		"stationShortCode": "MLÄ",
+		"stationShortCode": "MLÄ"
 	}, {
 		"stationName": "Mänttä",
-		"stationShortCode": "MÄN",
+		"stationShortCode": "MÄN"
 	}, {
 		"stationName": "Mäntyharju",
-		"stationShortCode": "MR",
+		"stationShortCode": "MR"
 	}, {
 		"stationName": "Mäntyluoto",
-		"stationShortCode": "MN",
+		"stationShortCode": "MN"
 	}, {
 		"stationName": "Naantali",
-		"stationShortCode": "NNL",
+		"stationShortCode": "NNL"
 	}, {
 		"stationName": "Naarajärvi",
-		"stationShortCode": "NRI",
+		"stationShortCode": "NRI"
 	}, {
 		"stationName": "Nakkila",
-		"stationShortCode": "NAL",
+		"stationShortCode": "NAL"
 	}, {
 		"stationName": "Nastola",
-		"stationShortCode": "NSL",
+		"stationShortCode": "NSL"
 	}, {
 		"stationName": "Niemenpää",
-		"stationShortCode": "NMP",
+		"stationShortCode": "NMP"
 	}, {
 		"stationName": "Niinimaa",
-		"stationShortCode": "NII",
+		"stationShortCode": "NII"
 	}, {
 		"stationName": "Niinimäki",
-		"stationShortCode": "NMÄ",
+		"stationShortCode": "NMÄ"
 	}, {
 		"stationName": "Niinisalo",
-		"stationShortCode": "NNS",
+		"stationShortCode": "NNS"
 	}, {
 		"stationName": "Niirala",
-		"stationShortCode": "NRL",
+		"stationShortCode": "NRL"
 	}, {
 		"stationName": "Niirala-raja",
-		"stationShortCode": "NRLR",
+		"stationShortCode": "NRLR"
 	}, {
 		"stationName": "Niittylahti",
-		"stationShortCode": "NTH",
+		"stationShortCode": "NTH"
 	}, {
 		"stationName": "Nikkilä",
-		"stationShortCode": "NLÄ",
+		"stationShortCode": "NLÄ"
 	}, {
 		"stationName": "Nivala",
-		"stationShortCode": "NVL",
+		"stationShortCode": "NVL"
 	}, {
 		"stationName": "Nokia",
-		"stationShortCode": "NOA",
+		"stationShortCode": "NOA"
 	}, {
 		"stationName": "Nummela",
-		"stationShortCode": "NM",
+		"stationShortCode": "NM"
 	}, {
 		"stationName": "Nuppulinna",
-		"stationShortCode": "NUP",
+		"stationShortCode": "NUP"
 	}, {
 		"stationName": "Nurmes",
-		"stationShortCode": "NRM",
+		"stationShortCode": "NRM"
 	}, {
 		"stationName": "Närpiö",
-		"stationShortCode": "NÄR",
+		"stationShortCode": "NÄR"
 	}, {
 		"stationName": "Ohenmäki",
-		"stationShortCode": "OHM",
+		"stationShortCode": "OHM"
 	}, {
 		"stationName": "Oitti",
-		"stationShortCode": "OI",
+		"stationShortCode": "OI"
 	}, {
 		"stationName": "Olli",
-		"stationShortCode": "OLLI",
+		"stationShortCode": "OLLI"
 	}, {
 		"stationName": "Onttola",
-		"stationShortCode": "ONT",
+		"stationShortCode": "ONT"
 	}, {
 		"stationName": "Orimattila",
-		"stationShortCode": "OM",
+		"stationShortCode": "OM"
 	}, {
 		"stationName": "Orivesi",
-		"stationShortCode": "OV",
+		"stationShortCode": "OV"
 	}, {
 		"stationName": "Orivesi keskusta",
-		"stationShortCode": "OVK",
+		"stationShortCode": "OVK"
 	}, {
 		"stationName": "Otanmäki",
-		"stationShortCode": "OTM",
+		"stationShortCode": "OTM"
 	}, {
 		"stationName": "Otava",
-		"stationShortCode": "OT",
+		"stationShortCode": "OT"
 	}, {
 		"stationName": "Oulainen",
-		"stationShortCode": "OU",
+		"stationShortCode": "OU"
 	}, {
 		"stationName": "Oulu",
-		"stationShortCode": "OL",
+		"stationShortCode": "OL"
 	}, {
 		"stationName": "Oulu Nokela",
-		"stationShortCode": "NOK",
+		"stationShortCode": "NOK"
 	}, {
 		"stationName": "Oulu Oritkari",
-		"stationShortCode": "ORI",
+		"stationShortCode": "ORI"
 	}, {
 		"stationName": "Oulu tavara",
-		"stationShortCode": "OLT",
+		"stationShortCode": "OLT"
 	}, {
 		"stationName": "Oulu Tuira",
-		"stationShortCode": "TUA",
+		"stationShortCode": "TUA"
 	}, {
 		"stationName": "Oulunkylä",
-		"stationShortCode": "OLK",
+		"stationShortCode": "OLK"
 	}, {
 		"stationName": "Paimenportti",
-		"stationShortCode": "PTI",
+		"stationShortCode": "PTI"
 	}, {
 		"stationName": "Paimio",
-		"stationShortCode": "PO",
+		"stationShortCode": "PO"
 	}, {
 		"stationName": "Palopuro",
-		"stationShortCode": "PLP",
+		"stationShortCode": "PLP"
 	}, {
 		"stationName": "Paltamo",
-		"stationShortCode": "PTO",
+		"stationShortCode": "PTO"
 	}, {
 		"stationName": "Pankakoski",
-		"stationShortCode": "PAS",
+		"stationShortCode": "PAS"
 	}, {
 		"stationName": "Parikkala",
-		"stationShortCode": "PAR",
+		"stationShortCode": "PAR"
 	}, {
 		"stationName": "Parkano",
-		"stationShortCode": "PKO",
+		"stationShortCode": "PKO"
 	}, {
 		"stationName": "Parola",
-		"stationShortCode": "PRL",
+		"stationShortCode": "PRL"
 	}, {
 		"stationName": "Pasila",
-		"stationShortCode": "PSL",
+		"stationShortCode": "PSL"
 	}, {
 		"stationName": "Pasila autojuna-asema",
-		"stationShortCode": "PAU",
+		"stationShortCode": "PAU"
 	}, {
 		"stationName": "Pasila tavara",
-		"stationShortCode": "PSLT",
+		"stationShortCode": "PSLT"
 	}, {
 		"stationName": "Pelkola",
-		"stationShortCode": "PA",
+		"stationShortCode": "PA"
 	}, {
 		"stationName": "Pello",
-		"stationShortCode": "PEL",
+		"stationShortCode": "PEL"
 	}, {
 		"stationName": "Peltosalmi",
-		"stationShortCode": "PMI",
+		"stationShortCode": "PMI"
 	}, {
 		"stationName": "Peräseinäjoki",
-		"stationShortCode": "PSJ",
+		"stationShortCode": "PSJ"
 	}, {
 		"stationName": "Pesiökylä",
-		"stationShortCode": "PSK",
+		"stationShortCode": "PSK"
 	}, {
 		"stationName": "Petroskoi",
-		"stationShortCode": "PTK",
+		"stationShortCode": "PTK"
 	}, {
 		"stationName": "Petäjävesi",
-		"stationShortCode": "PVI",
+		"stationShortCode": "PVI"
 	}, {
 		"stationName": "Pieksämäki",
-		"stationShortCode": "PM",
+		"stationShortCode": "PM"
 	}, {
 		"stationName": "Pieksämäki lajittelu",
-		"stationShortCode": "PMLA",
+		"stationShortCode": "PMLA"
 	}, {
 		"stationName": "Pieksämäki tavara",
-		"stationShortCode": "PMT",
+		"stationShortCode": "PMT"
 	}, {
 		"stationName": "Pieksämäki Temu",
-		"stationShortCode": "TMU",
+		"stationShortCode": "TMU"
 	}, {
 		"stationName": "Pietari (Finljandski)",
 		"stationShortCode": "PTR"
 	}, {
 		"stationName": "Pietarsaari",
-		"stationShortCode": "PTS",
+		"stationShortCode": "PTS"
 	}, {
 		"stationName": "Pihlajavesi",
-		"stationShortCode": "PH",
+		"stationShortCode": "PH"
 	}, {
 		"stationName": "Pihtipudas",
-		"stationShortCode": "PP",
+		"stationShortCode": "PP"
 	}, {
 		"stationName": "Piikkiö",
-		"stationShortCode": "PIK",
+		"stationShortCode": "PIK"
 	}, {
 		"stationName": "Pikkarala",
-		"stationShortCode": "PKL",
+		"stationShortCode": "PKL"
 	}, {
 		"stationName": "Pitäjänmäki",
-		"stationShortCode": "PJM",
+		"stationShortCode": "PJM"
 	}, {
 		"stationName": "Pohjankuru",
-		"stationShortCode": "PKU",
+		"stationShortCode": "PKU"
 	}, {
 		"stationName": "Pohjois-Haaga",
-		"stationShortCode": "POH",
+		"stationShortCode": "POH"
 	}, {
 		"stationName": "Pohjois-Louko",
-		"stationShortCode": "PLU",
+		"stationShortCode": "PLU"
 	}, {
 		"stationName": "Poikkeus",
-		"stationShortCode": "PKK",
+		"stationShortCode": "PKK"
 	}, {
 		"stationName": "Poiksilta",
-		"stationShortCode": "POI",
+		"stationShortCode": "POI"
 	}, {
 		"stationName": "Pori",
-		"stationShortCode": "PRI",
+		"stationShortCode": "PRI"
 	}, {
 		"stationName": "Porokylä",
-		"stationShortCode": "POR",
+		"stationShortCode": "POR"
 	}, {
 		"stationName": "Porvoo",
-		"stationShortCode": "PRV",
+		"stationShortCode": "PRV"
 	}, {
 		"stationName": "Puhos",
-		"stationShortCode": "PUS",
+		"stationShortCode": "PUS"
 	}, {
 		"stationName": "Puistola",
-		"stationShortCode": "PLA",
+		"stationShortCode": "PLA"
 	}, {
 		"stationName": "Pukinmäki",
-		"stationShortCode": "PMK",
+		"stationShortCode": "PMK"
 	}, {
 		"stationName": "Pulsa",
-		"stationShortCode": "PL",
+		"stationShortCode": "PL"
 	}, {
 		"stationName": "Punkaharju",
-		"stationShortCode": "PUN",
+		"stationShortCode": "PUN"
 	}, {
 		"passengerTraffic": true,
 		"type": "STATION",
