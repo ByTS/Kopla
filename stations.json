@@ -1006,186 +1006,68 @@
 		"stationName": "Pieksämäki tavara",
 		"stationShortCode": "PMT",
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Pieksämäki Temu",
 		"stationShortCode": "TMU",
-		"stationUICCode": 1212,
-		"countryCode": "FI",
-		"longitude": 27.17128578790158,
-		"latitude": 62.31403040301272
 	}, {
 		"stationName": "Pietari (Finljandski)",
 		"stationShortCode": "PTR"
 	}, {
 		"stationName": "Pietarsaari",
 		"stationShortCode": "PTS",
-		"stationUICCode": 306,
-		"countryCode": "FI",
-		"longitude": 22.71418750756535,
-		"latitude": 63.67576757979602
 	}, {
-		"passengerTraffic": true,
-		"type": "STATION",
 		"stationName": "Pihlajavesi",
 		"stationShortCode": "PH",
-		"stationUICCode": 261,
-		"countryCode": "FI",
-		"longitude": 24.39584002667575,
-		"latitude": 62.34712750649998
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Pihtipudas",
 		"stationShortCode": "PP",
-		"stationUICCode": 258,
-		"countryCode": "FI",
-		"longitude": 25.55705283545675,
-		"latitude": 63.37311568085998
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Piikkiö",
 		"stationShortCode": "PIK",
-		"stationUICCode": 127,
-		"countryCode": "FI",
-		"longitude": 22.51531305813403,
-		"latitude": 60.42324812191257
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Pikkarala",
 		"stationShortCode": "PKL",
-		"stationUICCode": 819,
-		"countryCode": "FI",
-		"longitude": 25.75500836228718,
-		"latitude": 64.91462231132688
 	}, {
-		"passengerTraffic": true,
-		"type": "STOPPING_POINT",
 		"stationName": "Pitäjänmäki",
 		"stationShortCode": "PJM",
-		"stationUICCode": 69,
-		"countryCode": "FI",
-		"longitude": 24.86017089093160,
-		"latitude": 60.22343845677647
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Pohjankuru",
 		"stationShortCode": "PKU",
-		"stationUICCode": 59,
-		"countryCode": "FI",
-		"longitude": 23.55176723177291,
-		"latitude": 60.09818524633457
 	}, {
-		"passengerTraffic": true,
-		"type": "STOPPING_POINT",
 		"stationName": "Pohjois-Haaga",
 		"stationShortCode": "POH",
-		"stationUICCode": 657,
-		"countryCode": "FI",
-		"longitude": 24.88364622155584,
-		"latitude": 60.23012948278079
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Pohjois-Louko",
 		"stationShortCode": "PLU",
-		"stationUICCode": 1214,
-		"countryCode": "FI",
-		"longitude": 22.94079688126658,
-		"latitude": 62.64773072618168
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Poikkeus",
 		"stationShortCode": "PKK",
-		"stationUICCode": 1216,
-		"countryCode": "FI",
-		"longitude": 23.13751800029301,
-		"latitude": 61.98998965906128
 	}, {
-		"passengerTraffic": false,
-		"type": "TURNOUT_IN_THE_OPEN_LINE",
 		"stationName": "Poiksilta",
 		"stationShortCode": "POI",
-		"stationUICCode": 965,
-		"countryCode": "FI",
-		"longitude": 29.74439702791639,
-		"latitude": 61.79124827387800
 	}, {
-		"passengerTraffic": true,
-		"type": "STATION",
 		"stationName": "Pori",
 		"stationShortCode": "PRI",
-		"stationUICCode": 220,
-		"countryCode": "FI",
-		"longitude": 21.78572321913222,
-		"latitude": 61.47777209750049
 	}, {
-		"passengerTraffic": false,
-		"type": "TURNOUT_IN_THE_OPEN_LINE",
 		"stationName": "Porokylä",
 		"stationShortCode": "POR",
-		"stationUICCode": 473,
-		"countryCode": "FI",
-		"longitude": 29.10206628967256,
-		"latitude": 63.55704092800343
 	}, {
-		"passengerTraffic": true,
-		"type": "STATION",
 		"stationName": "Porvoo",
 		"stationShortCode": "PRV",
-		"stationUICCode": 23,
-		"countryCode": "FI",
-		"longitude": 25.64916540672484,
-		"latitude": 60.39670795733601
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Puhos",
 		"stationShortCode": "PUS",
-		"stationUICCode": 919,
-		"countryCode": "FI",
-		"longitude": 29.97872065332543,
-		"latitude": 62.08931899742871
 	}, {
-		"passengerTraffic": true,
-		"type": "STOPPING_POINT",
 		"stationName": "Puistola",
 		"stationShortCode": "PLA",
-		"stationUICCode": 553,
-		"countryCode": "FI",
-		"longitude": 25.03725885963996,
-		"latitude": 60.27666250460228
 	}, {
-		"passengerTraffic": true,
-		"type": "STOPPING_POINT",
 		"stationName": "Pukinmäki",
 		"stationShortCode": "PMK",
-		"stationUICCode": 551,
-		"countryCode": "FI",
-		"longitude": 24.99410384078672,
-		"latitude": 60.24247098204923
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Pulsa",
 		"stationShortCode": "PL",
-		"stationUICCode": 1217,
-		"countryCode": "FI",
-		"longitude": 27.97440374030262,
-		"latitude": 60.92760250708037
 	}, {
-		"passengerTraffic": true,
-		"type": "STATION",
 		"stationName": "Punkaharju",
 		"stationShortCode": "PUN",
-		"stationUICCode": 517,
-		"countryCode": "FI",
-		"longitude": 29.38469453226840,
-		"latitude": 61.76175674492351
 	}, {
 		"passengerTraffic": true,
 		"type": "STATION",
