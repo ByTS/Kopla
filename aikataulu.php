@@ -57,7 +57,7 @@
       };
     });
     app.controller("kokoonpano", function($scope, $http) {
-      $http.get('https://umbrella.digipalvelutehdas.fi/rautatieliikenne/api/v1/compositions/<?php echo $juna;?>?departure_date=<?php echo $pvm;?>?api_key=j8Q62JIgAIH56qjL91JModpovcgSfEo40KpZBZRH').
+      $http.get('https://umbrella.digipalvelutehdas.fi/rautatieliikenne/api/v1/compositions/<?php echo $juna;?>?departure_date=<?php echo $pvm;?>&api_key=j8Q62JIgAIH56qjL91JModpovcgSfEo40KpZBZRH').
       success(function(data, status, headers, config) {
         $scope.results = data;
       });
