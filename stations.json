@@ -1067,95 +1067,35 @@
 		"stationName": "Punkaharju",
 		"stationShortCode": "PUN"
 	}, {
-		"passengerTraffic": true,
-		"type": "STATION",
 		"stationName": "Purola",
-		"stationShortCode": "PUR",
-		"stationUICCode": 564,
-		"countryCode": "FI",
-		"longitude": 25.05074734567160,
-		"latitude": 60.50041698448968
+		"stationShortCode": "PUR"
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Pyhäkumpu",
-		"stationShortCode": "PYK",
-		"stationUICCode": 757,
-		"countryCode": "FI",
-		"longitude": 26.04351799019534,
-		"latitude": 63.66294273956703
+		"stationShortCode": "PYK"
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Pyhäkumpu erkanemisvaihde",
-		"stationShortCode": "PYE",
-		"stationUICCode": 1218,
-		"countryCode": "FI",
-		"longitude": 26.03119187675353,
-		"latitude": 63.67898873765653
+		"stationShortCode": "PYE"
 	}, {
-		"passengerTraffic": true,
-		"type": "STATION",
 		"stationName": "Pyhäsalmi",
-		"stationShortCode": "PHÄ",
-		"stationUICCode": 331,
-		"countryCode": "FI",
-		"longitude": 25.98361502891564,
-		"latitude": 63.68436897410799
+		"stationShortCode": "PHÄ"
 	}, {
-		"passengerTraffic": true,
-		"type": "STATION",
 		"stationName": "Pännäinen",
-		"stationShortCode": "PNÄ",
-		"stationUICCode": 305,
-		"countryCode": "FI",
-		"longitude": 22.78989134643909,
-		"latitude": 63.59679710335286
+		"stationShortCode": "PNÄ"
 	}, {
-		"passengerTraffic": true,
-		"type": "STATION",
 		"stationName": "Pääskylahti",
-		"stationShortCode": "PKY",
-		"stationUICCode": 519,
-		"countryCode": "FI",
-		"longitude": 28.92668569826586,
-		"latitude": 61.86294308202961
+		"stationShortCode": "PKY"
 	}, {
-		"passengerTraffic": false,
-		"type": "TURNOUT_IN_THE_OPEN_LINE",
 		"stationName": "R530",
-		"stationShortCode": "R530",
-		"stationUICCode": 99994,
-		"countryCode": "FI",
-		"longitude": 25.02204560035829,
-		"latitude": 64.60555052404949
+		"stationShortCode": "R530"
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Raahe",
-		"stationShortCode": "RHE",
-		"stationUICCode": 335,
-		"countryCode": "FI",
-		"longitude": 24.49096479953922,
-		"latitude": 64.68520983077001
+		"stationShortCode": "RHE"
 	}, {
-		"passengerTraffic": false,
-		"type": "TURNOUT_IN_THE_OPEN_LINE",
 		"stationName": "Raide934",
-		"stationShortCode": "R934",
-		"stationUICCode": 99998,
-		"countryCode": "FI",
-		"longitude": 28.10061446207352,
-		"latitude": 64.36296084071225
+		"stationShortCode": "R934"
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Raippo",
-		"stationShortCode": "RPO",
-		"stationUICCode": 490,
-		"countryCode": "FI",
-		"longitude": 28.10781306392960,
-		"latitude": 60.91237558484782
+		"stationShortCode": "RPO"
 	}, {
 		"passengerTraffic": false,
 		"type": "STATION",
