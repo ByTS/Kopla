@@ -20,7 +20,7 @@
 		<script>
 var app = angular.module("historia", []);
 app.controller("toteuma", function($scope, $http) {
-		$http.get('http://rata.digitraffic.fi/api/v1/history/<?php echo $juna;?>?departure_date=<?php echo $querypvm;?>').
+		$http.get('https://rata.digitraffic.fi/api/v1/history/<?php echo $juna;?>?departure_date=<?php echo $querypvm;?>').
 		success(function(data, status, headers, config) {
 			$scope.rows = data;
 		});

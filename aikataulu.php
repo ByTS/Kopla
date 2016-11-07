@@ -22,7 +22,7 @@
     var app = angular.module("aikataulu", []);
 	
     app.controller("liveTrains", function($scope, $http) {
-      $http.get('http://rata.digitraffic.fi/api/v1/live-trains/<?php echo $juna;?>').
+      $http.get('https://rata.digitraffic.fi/api/v1/live-trains/<?php echo $juna;?>').
       success(function(data, status, headers, config) {
         $scope.rows = data;
         });
@@ -51,24 +51,24 @@
 	success(function(data, status, headers, config) {
 		$scope.causes = data;
 		});
-      $http.get('http://rata.digitraffic.fi/api/v1/metadata/detailed-cause-category-codes').
+      $http.get('https://rata.digitraffic.fi/api/v1/metadata/detailed-cause-category-codes').
 	success(function(data, status, headers, config) {
 		$scope.detailedcauses = data;
 		});
-        $http.get('http://rata.digitraffic.fi/api/v1/train-tracking/<?php echo $juna;?>').
+        $http.get('https://rata.digitraffic.fi/api/v1/train-tracking/<?php echo $juna;?>').
         success(function(data, status, headers, config) {
           $scope.sections = data;
       });
-        $http.get('http://rata.digitraffic.fi/api/v1/metadata/track-sections').
+        $http.get('https://rata.digitraffic.fi/api/v1/metadata/track-sections').
         success(function(data, status, headers, config) {
           $scope.tracksections = data;
       });
       this.interval = setInterval(function() {
-        $http.get('http://rata.digitraffic.fi/api/v1/live-trains/<?php echo $juna;?>').
+        $http.get('https://rata.digitraffic.fi/api/v1/live-trains/<?php echo $juna;?>').
         success(function(data, status, headers, config) {
           $scope.rows = data;
         });
-        $http.get('http://rata.digitraffic.fi/api/v1/train-tracking/<?php echo $juna;?>').
+        $http.get('https://rata.digitraffic.fi/api/v1/train-tracking/<?php echo $juna;?>').
         success(function(data, status, headers, config) {
           $scope.sections = data;
         });
@@ -78,7 +78,7 @@
       };
     });
     app.controller("kokoonpano", function($scope, $http) {
-      $http.get('http://rata.digitraffic.fi/api/v1/compositions/<?php echo $juna;?>?departure_date=<?php echo $pvm;?>').
+      $http.get('https://rata.digitraffic.fi/api/v1/compositions/<?php echo $juna;?>?departure_date=<?php echo $pvm;?>').
       success(function(data, status, headers, config) {
         $scope.results = data;
       });
