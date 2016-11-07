@@ -30,7 +30,7 @@
       success(function(data, status, headers, config) {
         $scope.stations = data;
         });
-      $http.get('http://rata.digitraffic.fi/api/v1/metadata/cause-category-codes').
+      $http.get('https://rata.digitraffic.fi/api/v1/metadata/cause-category-codes').
 	success(function(data, status, headers, config) {
 		$scope.causes = data;
 		});
