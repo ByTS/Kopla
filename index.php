@@ -154,13 +154,6 @@
               </tr>
             </tbody>
           </table>
-					<div class="row" ng-controller="paikannus">
-					  <form action="geolocation.php" method="post">
-						  <input type="hidden" value="{{position.coords.latitude}}" name="lat">
-						  <input type="hidden" value="{{position.coords.longitude}}" name="lon">
-						  <input class="button" type="submit" value="{{message}}" ng-disabled="disable == 'true'">
-					  </form>
-				  </div>
         </div>
       </div><hr>
       <div class="row">
