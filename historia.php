@@ -3,6 +3,7 @@
 	$pvm = $_GET["pvm"];
     $querypvm = date("Y-m-d", strtotime($pvm));
     $siisti = date("d.m.Y", strtotime($pvm));
+	$eilen=date("Y-m-d", $pvm - 60 * 60 * 24);
 ?>
 <!DOCTYPE html>
 <html lang="fi">
@@ -64,6 +65,7 @@ function etusivulle() {
 			<?php include 'incs/nav.php';?>
 		</div>
 		<div class="container-fluid" ng-controller="toteuma">
+			<a href="historia.php?pvm=<?php echo $eilen;?>&n=<?php echo $juna;?>" class="btn btn-info-outline">Edellinen päivä</a>
 		<h2 ng-show="!(rows | filter:{'trainNumber':<?php echo $juna;?>}: true).length">Ladataan...</h2>
 			<div ng-repeat="x in rows | filter:{'trainNumber':<?php echo $juna;?>}: true" autoscroll="false">
 			<h2><span class="label label-success type-{{x.trainType}}">{{x.trainType}}</span>
