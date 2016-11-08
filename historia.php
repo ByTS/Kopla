@@ -71,7 +71,7 @@ function etusivulle() {
 		</div>
 		<div class="container-fluid" ng-controller="toteuma">
 			<a href="historia.php?pvm=<?php echo $eilen;?>&n=<?php echo $juna;?>" class="btn btn-info-outline"><?php echo $siistieilen;?></a>
-			<span ng-hide="'<?php echo $huomenna;?>'=='<?php echo $nyt;?>'">
+			<span ng-hide="'<?php echo $pvm;?>'=='<?php echo $nyt;?>'">
 				<a href="historia.php?pvm=<?php echo $huomenna;?>&n=<?php echo $juna;?>" class="btn btn-info-outline"><?php echo $siistihuomenna;?></a>
 			</span>
 		<h2 ng-show="!(rows | filter:{'trainNumber':<?php echo $juna;?>}: true).length">Ladataan...</h2>
