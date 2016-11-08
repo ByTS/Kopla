@@ -110,7 +110,8 @@
           </tr>
         </thead>
         <tbody>
-          <tr ng-repeat="y in x.timeTableRows | filter:{'type':'DEPARTURE'}: true | filter:{'commercialStop':true}: true" autoscroll="false" class="tot{{y.actualTime | date:'HH'}}">
+		<span ng-repeat="y in x.timeTableRows | filter:{'type':'DEPARTURE'}: true | filter:{'commercialStop':true}: true" autoscroll="false" class="tot{{y.actualTime | date:'HH'}}">
+          <tr>
             <td><a href="asema.php?as={{y.stationShortCode}}"><span ng-repeat="station in stations | filter:{'stationShortCode':y.stationShortCode}: true">{{station.stationName}}</span></a>
             </td>
             <td>{{y.scheduledTime | date:'H:mm'}}</td>
@@ -120,6 +121,8 @@
             </td>
             <td class="text-center">{{y.commercialTrack}}</td>
           </tr>
+		  <tr ng-show="{'y.stationShortCode'=='TKL'}"><td>Tiksi</td></tr>
+		</span>
           <tr ng-repeat="y in x.timeTableRows | limitTo:-1" class="tot{{y.actualTime | date:'HH'}}">
             <td><a href="asema.php?as={{y.stationShortCode}}"><span ng-repeat="station in stations | filter:{'stationShortCode':y.stationShortCode}: true">{{station.stationName}}</span></a>
             </td>
