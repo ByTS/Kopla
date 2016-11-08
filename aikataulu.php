@@ -152,7 +152,7 @@
 	<div ng-hide="results.trainType=='HL'">
 	<ul class="list-group" ng-repeat="x in results.journeySections">
 	<li class="list-group-item" ng-hide="x.length=='4'">Kokoonpano {{x.beginTimeTableRow.stationShortCode}}-{{x.endTimeTableRow.stationShortCode}}</li>
-		<li class="list-group-item" ng-repeat="y in x.locomotives">{{y.location}} {{y.locomotiveType}}</li>
+		<li class="list-group-item" ng-repeat="y in x.locomotives">{{y.locomotiveType}}</li>
 		<li class="list-group-item" ng-repeat="y in x.wagons">{{y.location}} {{y.wagonType}} 
 		<i ng-show="y.catering" class="fa fa-cutlery"></i>
 		<i ng-show="y.pet" class="fa fa-paw"></i>
