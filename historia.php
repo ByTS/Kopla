@@ -3,7 +3,7 @@
 	$pvm = $_GET["pvm"];
     $querypvm = date("Y-m-d", strtotime($pvm));
     $siisti = date("d.m.Y", strtotime($pvm));
-	$eilen=date("Y-m-d", strtotime($pvm - 60 * 60 * 24));
+	$eilen=date("Y-m-d", strtotime($pvm) - 60 * 60 * 24);
 ?>
 <!DOCTYPE html>
 <html lang="fi">
