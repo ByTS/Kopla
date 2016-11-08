@@ -87,13 +87,13 @@ function etusivulle() {
 				</thead>
 				<tbody>
 					<tr ng-repeat="y in x.timeTableRows | filter:{'type':'DEPARTURE'}: true | filter:{'commercialStop':true}: true" autoscroll="false">
-						<td><a href="asema.php?as={{y.stationShortCode}}">{{y.stationShortCode}}</a></td>
+						<td><a href="asema.php?as={{y.stationShortCode}}"><span ng-repeat="station in stations | filter:{'stationShortCode':y.stationShortCode}: true">{{station.stationName}}</span></a></td>
 						<td>{{y.scheduledTime | date:'HH:mm'}}</td>
 						<td>{{y.actualTime | date:'HH:mm:ss'}} <span class="label label-default pull-right dif{{y.differenceInMinutes}}">{{y.differenceInMinutes}}</span></td>
 						<td><center>{{y.commercialTrack}}</center><!-- <i class="starrow {{y.stationShortCode}}{{y.commercialTrack}}V fa fa-arrow-left"></i><i class="starrow {{y.stationShortCode}}{{y.commercialTrack}}O fa fa-arrow-right"></i>--></td>
 					</tr>
 					<tr ng-repeat="y in x.timeTableRows | limitTo:-1">
-						<td><a href="asema.php?as={{y.stationShortCode}}">{{y.stationShortCode}}</a></td>
+						<td><a href="asema.php?as={{y.stationShortCode}}"><span ng-repeat="station in stations | filter:{'stationShortCode':y.stationShortCode}: true">{{station.stationName}}</span></a></td>
 						<td>{{y.scheduledTime | date:'HH:mm'}}</td>
 						<td>{{y.actualTime | date:'HH:mm:ss'}} <span class="label label-default pull-right dif{{y.differenceInMinutes}}">{{y.differenceInMinutes}}</span></td>
 						<td><center>{{y.commercialTrack}}</center><!-- <i class="starrow {{y.stationShortCode}}{{y.commercialTrack}}V fa fa-arrow-left"></i><i class="starrow {{y.stationShortCode}}{{y.commercialTrack}}O fa fa-arrow-right"></i>--></td>
