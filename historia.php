@@ -1,4 +1,5 @@
-<?php 
+<?php
+	date_default_timezone_set( 'Europe/Helsinki');
 	$juna = $_GET["n"];
 	$pvm = $_GET["pvm"];
     $querypvm = date("Y-m-d", strtotime($pvm));
@@ -7,6 +8,7 @@
 	$siistieilen = date("d.m.Y", strtotime($eilen));
 	$huomenna = date("Y-m-d", strtotime($pvm) + 60 * 60 * 24);
 	$siistihuomenna = date("d.m.Y", strtotime($huomenna));
+	$nyt=date("Y-m-d");
 ?>
 <!DOCTYPE html>
 <html lang="fi">
@@ -69,7 +71,9 @@ function etusivulle() {
 		</div>
 		<div class="container-fluid" ng-controller="toteuma">
 			<a href="historia.php?pvm=<?php echo $eilen;?>&n=<?php echo $juna;?>" class="btn btn-info-outline"><?php echo $siistieilen;?></a>
-			<a href="historia.php?pvm=<?php echo $huomenna;?>&n=<?php echo $juna;?>" class="btn btn-info-outline"><?php echo $siistihuomenna;?></a>
+			<span ng-hide="'<?php echo $huomenna;?>'=='<?php echo $nyt;?>'">
+				<a href="historia.php?pvm=<?php echo $huomenna;?>&n=<?php echo $juna;?>" class="btn btn-info-outline"><?php echo $siistihuomenna;?></a>
+			</span>
 		<h2 ng-show="!(rows | filter:{'trainNumber':<?php echo $juna;?>}: true).length">Ladataan...</h2>
 			<div ng-repeat="x in rows | filter:{'trainNumber':<?php echo $juna;?>}: true" autoscroll="false">
 			<h2><span class="label label-success type-{{x.trainType}}">{{x.trainType}}</span>
