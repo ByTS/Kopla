@@ -10,7 +10,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<title>KOPLA - Junan <?php echo $juna;?> kulkutiedot (<?php echo $pvm;?>)</title>
+		<title>KOPLA - Junan <?php echo $juna;?> kulkutiedot (<?php echo $siisti;?>)</title>
 		<link href='https://fonts.googleapis.com/css?family=Exo:400,100,200,300' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="main.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
