@@ -67,13 +67,13 @@
       });
     });
 app.controller("yhteydet", function($scope, $http, orderByFilter) {
-	$http.get('https://rata.digitraffic.fi/api/v1/live-trains?station=TKL&departed_trains=0&departing_trains=25&arriving_trains=0&arrived_trains=0').
+	$http.get('https://rata.digitraffic.fi/api/v1/live-trains?station=TKL&departed_trains=0&departing_trains=10&arriving_trains=0&arrived_trains=0').
     success(function(data, status, headers, config) {
       $scope.tkl = data;
       $scope.sortedtkl = orderByFilter($scope.tkl, '+scheduledTime');
       console.log($scope.sortedtkl);
       });
-	$http.get('https://rata.digitraffic.fi/api/v1/live-trains?station=HPL&departed_trains=0&departing_trains=25&arriving_trains=0&arrived_trains=0').
+	$http.get('https://rata.digitraffic.fi/api/v1/live-trains?station=HPL&departed_trains=0&departing_trains=10&arriving_trains=0&arrived_trains=0').
     success(function(data, status, headers, config) {
       $scope.hpl = data;
       $scope.sortedhpl = orderByFilter($scope.hpl, '+scheduledTime');
@@ -134,15 +134,11 @@ app.controller("yhteydet", function($scope, $http, orderByFilter) {
 
 <ul ng-show="y.stationShortCode=='TKL'" ng-controller="yhteydet">
 	<li ng-repeat="x in tkl | orderBy:'scheduledTime'" ng-init="x.scheduledTime = (x.timeTableRows | filter:{stationShortCode:'TKL', 'type':'DEPARTURE'})[0].scheduledTime" ng-hide="x.cancelled">
-		{{x.commuterLineID}} <span ng-repeat="y in x.timeTableRows | limitTo:-1"><span ng-repeat="station in stations | filter:{'stationShortCode':y.stationShortCode}: true">{{station.stationName}}</span></span> {{x.scheduledTime | date:'HH:mm'}} <span ng-repeat="y in x.timeTableRows | filter:{'stationShortCode':'TKL', 'type':'DEPARTURE'}: true | limitTo:1">{{y.commercialTrack}}</span>
+		{{x.commuterLineID}} <span ng-repeat="y in x.timeTableRows | limitTo:-1"> -> <span ng-repeat="station in stations | filter:{'stationShortCode':y.stationShortCode}: true">{{station.stationName}}</span></span> {{x.scheduledTime | date:'HH:mm'}} R.<span ng-repeat="y in x.timeTableRows | filter:{'stationShortCode':'TKL', 'type':'DEPARTURE'}: true | limitTo:1">{{y.commercialTrack}}</span>
 	</li>
 </ul>
 
-				<ul ng-show="y.stationShortCode=='TKL'">
-					<li>K, N -> Ke R.5</li>
-					<li>I -> Len R.4</li>
-					<li>P, K, N -> Pla R.6</li>
-				</ul>
+
 				<ul ng-show="y.stationShortCode=='LPV'">
 					<li>A -> Hki, L -> Kkn R.4</li>
 					<li>E, U, X, Y -> Hpl R.2</li>
