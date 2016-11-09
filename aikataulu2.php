@@ -112,16 +112,18 @@
         <tbody>
           <tr ng-repeat="y in x.timeTableRows | filter:{'type':'DEPARTURE'}: true | filter:{'commercialStop':true}: true" autoscroll="false" class="tot{{y.actualTime | date:'HH'}}">
             <td><a href="asema.php?as={{y.stationShortCode}}"><span ng-repeat="station in stations | filter:{'stationShortCode':y.stationShortCode}: true">{{station.stationName}}</span></a>
-			<ul ng-show="y.stationShortCode=='TKL'">
-				<li>K, N -> Ke R.5</li>
-				<li>I -> Len R.4</li>
-				<li>P, K, N -> Pla R.6</li>
-			</ul>
-			<ul ng-show="y.stationShortCode=='HPL'">
-				<li>A, P, L R.4</li>
-				<li>I -> Ila R.3</li>
-				<li>E, U, X, Y -> Klh R.1</li>
-			</ul>
+			<span ng-show="x.trainCategory=='Long-distance'">
+				<ul ng-show="y.stationShortCode=='TKL'">
+					<li>K, N -> Ke R.5</li>
+					<li>I -> Len R.4</li>
+					<li>P, K, N -> Pla R.6</li>
+				</ul>
+				<ul ng-show="y.stationShortCode=='LPV'">
+					<li>A -> Hki R.4</li>
+					<li>E, U, X, Y -> Hpl R.2</li>
+					<li>E, U, X, Y -> Klh & Kkn R.1</li>
+				</ul>
+			</span>
             </td>
             <td>{{y.scheduledTime | date:'H:mm'}}</td>
             <td>{{y.actualTime | date:'H:mm:ss'}}&nbsp;&nbsp;
