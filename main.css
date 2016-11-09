@@ -1,4 +1,8 @@
+
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;

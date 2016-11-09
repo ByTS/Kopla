@@ -130,7 +130,7 @@ app.controller("yhteydet", function($scope, $http, orderByFilter) {
         <tbody>
           <tr ng-repeat="y in x.timeTableRows | filter:{'type':'DEPARTURE'}: true | filter:{'commercialStop':true}: true" autoscroll="false" class="tot{{y.actualTime | date:'HH'}}">
             <td><a href="asema.php?as={{y.stationShortCode}}"><span ng-repeat="station in stations | filter:{'stationShortCode':y.stationShortCode}: true">{{station.stationName}}</span></a>
-			<span ng-show="x.trainCategory=='Long-distance'">
+			<span ng-show="x.trainCategory=='Long-distance'" class="ng-cloak">
 
 <ul ng-show="y.stationShortCode=='TKL'" ng-controller="yhteydet">
 	<li ng-repeat="x in tkl | orderBy:'scheduledTime'" ng-init="x.scheduledTime = (x.timeTableRows | filter:{stationShortCode:'TKL', 'type':'DEPARTURE'})[0].scheduledTime" ng-hide="x.cancelled">
