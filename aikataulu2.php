@@ -114,6 +114,8 @@
             <td><a href="asema.php?as={{y.stationShortCode}}"><span ng-repeat="station in stations | filter:{'stationShortCode':y.stationShortCode}: true">{{station.stationName}}</span></a>
 			<ul ng-show="y.stationShortCode=='TKL'">
 				<li>K, N -> Ke R.5</li>
+				<li>I -> Len R.4</li>
+				<li>P, K, N -> Pla R.6</li>
 			</ul>
             </td>
             <td>{{y.scheduledTime | date:'H:mm'}}</td>
