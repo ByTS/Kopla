@@ -1097,32 +1097,14 @@
 		"stationName": "Raippo",
 		"stationShortCode": "RPO"
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Raisio",
-		"stationShortCode": "RAI",
-		"stationUICCode": 125,
-		"countryCode": "FI",
-		"longitude": 22.12855842619777,
-		"latitude": 60.48592803807709
+		"stationShortCode": "RAI"
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Rajamäki",
-		"stationShortCode": "RM",
-		"stationUICCode": 88,
-		"countryCode": "FI",
-		"longitude": 24.76199869096384,
-		"latitude": 60.53273889925433
+		"stationShortCode": "RM"
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Rajaperkiö",
-		"stationShortCode": "RJP",
-		"stationUICCode": 1220,
-		"countryCode": "FI",
-		"longitude": 23.01298365073672,
-		"latitude": 63.03743932338116
+		"stationShortCode": "RJP"
 	}, {
 		"passengerTraffic": false,
 		"type": "STATION",
