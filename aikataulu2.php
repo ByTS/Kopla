@@ -133,7 +133,7 @@ app.controller("yhteydet", function($scope, $http, orderByFilter) {
 			<span ng-show="x.trainCategory=='Long-distance'">
 
 <ul ng-show="y.stationShortCode=='TKL'" ng-controller="yhteydet">
-	<li ng-repeat="x in tkl | orderBy:'scheduledTime'" ng-init="x.scheduledTime = (x.timeTableRows | filter:{stationShortCode:'TKL', 'type':'DEPARTURE'})[0].scheduledTime">
+	<li ng-repeat="x in tkl | orderBy:'scheduledTime' | filter:'cancelled':false" ng-init="x.scheduledTime = (x.timeTableRows | filter:{stationShortCode:'TKL', 'type':'DEPARTURE'})[0].scheduledTime">
 		{{x.commuterLineID}} <span ng-repeat="y in x.timeTableRows | limitTo:-1"><span ng-repeat="station in stations | filter:{'stationShortCode':y.stationShortCode}: true">{{station.stationName}}</span></span> {{x.scheduledTime | date:'HH:mm'}} <span ng-repeat="y in x.timeTableRows | filter:{'stationShortCode':'TKL', 'type':'DEPARTURE'}: true | limitTo:1">{{y.commercialTrack}}</span>
 	</li>
 </ul>
