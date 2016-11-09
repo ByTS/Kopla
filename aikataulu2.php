@@ -67,13 +67,13 @@
       });
     });
 app.controller("yhteydet", function($scope, $http, orderByFilter) {
-	$http.get('https://rata.digitraffic.fi/api/v1/live-trains?station=TKL&departed_trains=0&departing_trains=5&arriving_trains=0&arrived_trains=0').
+	$http.get('https://rata.digitraffic.fi/api/v1/live-trains?station=TKL&departed_trains=0&departing_trains=25&arriving_trains=0&arrived_trains=0').
     success(function(data, status, headers, config) {
       $scope.tkl = data;
       $scope.sortedtkl = orderByFilter($scope.tkl, '+scheduledTime');
       console.log($scope.sortedtkl);
       });
-	$http.get('https://rata.digitraffic.fi/api/v1/live-trains?station=HPL&departed_trains=0&departing_trains=5&arriving_trains=0&arrived_trains=0').
+	$http.get('https://rata.digitraffic.fi/api/v1/live-trains?station=HPL&departed_trains=0&departing_trains=25&arriving_trains=0&arrived_trains=0').
     success(function(data, status, headers, config) {
       $scope.hpl = data;
       $scope.sortedhpl = orderByFilter($scope.hpl, '+scheduledTime');
