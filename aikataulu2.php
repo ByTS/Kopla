@@ -117,6 +117,11 @@
 				<li>I -> Len R.4</li>
 				<li>P, K, N -> Pla R.6</li>
 			</ul>
+			<ul ng-show="y.stationShortCode=='HPL'">
+				<li>A, P, L R.4</li>
+				<li>I -> Ila R.3</li>
+				<li>E, U, X, Y -> Klh R.1</li>
+			</ul>
             </td>
             <td>{{y.scheduledTime | date:'H:mm'}}</td>
             <td>{{y.actualTime | date:'H:mm:ss'}}&nbsp;&nbsp;
