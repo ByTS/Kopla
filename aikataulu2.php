@@ -113,7 +113,7 @@
           <tr ng-repeat="y in x.timeTableRows | filter:{'type':'DEPARTURE'}: true | filter:{'commercialStop':true}: true" autoscroll="false" class="tot{{y.actualTime | date:'HH'}}">
             <td><a href="asema.php?as={{y.stationShortCode}}"><span ng-repeat="station in stations | filter:{'stationShortCode':y.stationShortCode}: true">{{station.stationName}}</span></a>
 			<ul ng-show="y.stationShortCode=='TKL'">
-				<li>Tikkurila</li>
+				<li>K, N -> Ke R.5</li>
 			</ul>
             </td>
             <td>{{y.scheduledTime | date:'H:mm'}}</td>
