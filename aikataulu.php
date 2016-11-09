@@ -134,11 +134,13 @@
   </div>
   <div class="col-md-6" ng-controller="liveTrains">
       <div ng-repeat="x in rows">
-    <ul class="list-group" ng-repeat="y in x.timeTableRows">
-      <li class="list-group-item" ng-repeat="cause in y.causes">
+    <ul class="list-group">
+      <li class="list-group-item" ng-repeat="y in x.timeTableRows">
+	  <span ng-repeat="cause in y.causes">
         <span ng-repeat="station in stations | filter:{'stationShortCode':y.stationShortCode}: true">{{station.stationName}}</span>:
         <span ng-repeat="class in causes | filter:{'categoryCode':cause.categoryCode}: true">{{class.categoryName}}</span> 
           <small ng-show="cause.detailedCategoryCode">(<span ng-repeat="name in detailedcauses | filter:{'detailedCategoryCode':cause.detailedCategoryCode}: true | limitTo:1">{{name.detailedCategoryName}}</span>)</small>
+		  </span>
       </li>
     </ul>
           </div>
