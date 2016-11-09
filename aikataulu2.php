@@ -132,11 +132,11 @@ app.controller("yhteydet", function($scope, $http, orderByFilter) {
             <td><a href="asema.php?as={{y.stationShortCode}}"><span ng-repeat="station in stations | filter:{'stationShortCode':y.stationShortCode}: true">{{station.stationName}}</span></a>
 			<span ng-show="x.trainCategory=='Long-distance'">
 
-<ul ng-show="y.stationShortCode=='TKL'" ng-controller="yhteydet" class="ng-cloak">
-	<li ng-repeat="x in tkl | orderBy:'scheduledTime'" ng-init="x.scheduledTime = (x.timeTableRows | filter:{stationShortCode:'TKL', 'type':'DEPARTURE'})[0].scheduledTime" ng-hide="x.cancelled || x.trainCategory === 'Long-distance'">
+<span ng-show="y.stationShortCode=='TKL'" ng-controller="yhteydet" class="ng-cloak">
+	<span ng-repeat="x in tkl | orderBy:'scheduledTime'" ng-init="x.scheduledTime = (x.timeTableRows | filter:{stationShortCode:'TKL', 'type':'DEPARTURE'})[0].scheduledTime" ng-hide="x.cancelled || x.trainCategory === 'Long-distance'">
 		{{x.commuterLineID}} {{x.trainNumber}} <span ng-repeat="y in x.timeTableRows | limitTo:-1"> -> <span ng-repeat="station in stations | filter:{'stationShortCode':y.stationShortCode}: true">{{station.stationName}}</span></span> {{x.scheduledTime | date:'HH:mm'}} R.<span ng-repeat="y in x.timeTableRows | filter:{'stationShortCode':'TKL', 'type':'DEPARTURE'}: true | limitTo:1">{{y.commercialTrack}}</span>
-	</li>
-</ul>
+	</span>
+</span>
 
 
 				<ul ng-show="y.stationShortCode=='LPV'">
