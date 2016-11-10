@@ -27,6 +27,7 @@ var app = angular.module("asema", []);
         clearInterval(this.interval);
       };
     });
+	});
     app.controller('kello', function($scope, $interval) {
   var tick = function() {
     $scope.kello = Date.now();
