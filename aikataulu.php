@@ -25,6 +25,7 @@
       $http.get('https://rata.digitraffic.fi/api/v1/live-trains/<?php echo $juna;?>').
       success(function(data, status, headers, config) {
         $scope.rows = data;
+		console.log($scope.rows);
         });
 		$http.get('stations.json').
       success(function(data, status, headers, config) {
