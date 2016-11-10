@@ -131,6 +131,7 @@
           </tr>
         </tbody>
       </table>
+	  <b ng-show="{x.trainType=='AE'}">Allegron toteumatiedot on saatavilla vain Suomen puolelta.</b>
     </div>
   </div>
   <div class="col-md-6" ng-controller="liveTrains">
