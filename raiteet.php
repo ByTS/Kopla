@@ -53,6 +53,11 @@ var app = angular.module("asema", []);
 					<th>Lähtöaika</th>
 				</thead>
 				<tbody>
+					<tr>
+						<td ng-repeat="x in 001a | limitTo:-1">
+							{{x.trainNumber}}
+						</td>
+					</tr>
 				</tbody>
 			</table>
 				<br><br>
