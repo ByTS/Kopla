@@ -1106,77 +1106,29 @@
 		"stationName": "Rajaperkiö",
 		"stationShortCode": "RJP"
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Rantasalmi",
-		"stationShortCode": "RMI",
-		"stationUICCode": 524,
-		"countryCode": "FI",
-		"longitude": 28.27849688902250,
-		"latitude": 62.01507534552261
+		"stationShortCode": "RMI"
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Rasinsuo",
-		"stationShortCode": "RAS",
-		"stationUICCode": 1222,
-		"countryCode": "FI",
-		"longitude": 27.89378914055414,
-		"latitude": 60.97650210051839
+		"stationShortCode": "RAS"
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Ratikylä",
-		"stationShortCode": "RLÄ",
-		"stationUICCode": 596,
-		"countryCode": "FI",
-		"longitude": 23.01084770737152,
-		"latitude": 62.24621619845151
+		"stationShortCode": "RLÄ"
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Rauha",
-		"stationShortCode": "RAH",
-		"stationUICCode": 501,
-		"countryCode": "FI",
-		"longitude": 28.68966439772580,
-		"latitude": 61.17870881750006
+		"stationShortCode": "RAH"
 	}, {
-		"passengerTraffic": false,
-		"type": "TURNOUT_IN_THE_OPEN_LINE",
 		"stationName": "Rauhalahti",
-		"stationShortCode": "RHL",
-		"stationUICCode": 1225,
-		"countryCode": "FI",
-		"longitude": 25.80191538100761,
-		"latitude": 62.24080913596418
+		"stationShortCode": "RHL"
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Rauma",
-		"stationShortCode": "RMA",
-		"stationUICCode": 165,
-		"countryCode": "FI",
-		"longitude": 21.49142690725031,
-		"latitude": 61.13277899321351
+		"stationShortCode": "RMA"
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Raunio",
-		"stationShortCode": "RIO",
-		"stationUICCode": 1227,
-		"countryCode": "FI",
-		"longitude": 22.95477192028780,
-		"latitude": 63.17275954183184
+		"stationShortCode": "RIO"
 	}, {
-		"passengerTraffic": false,
-		"type": "STATION",
 		"stationName": "Rautaruukki",
-		"stationShortCode": "RAT",
-		"stationUICCode": 750,
-		"countryCode": "FI",
-		"longitude": 24.46342490035612,
-		"latitude": 64.68456963658556
+		"stationShortCode": "RAT"
 	}, {
 		"passengerTraffic": false,
 		"type": "STATION",
