@@ -95,10 +95,10 @@
       </h2>
       <h4>
         <span ng-show="{{x.runningCurrently}}"><span class="label label-success">Kulussa</span>
-          <span ng-repeat="section in sections | limitTo:-1">
+          <!--<span ng-repeat="section in sections | limitTo:-1">
 	    <span ng-repeat="station in stations | filter:{'stationShortCode':section.station}: true | limitTo:1">{{station.stationName}}</span> {{section.trackSection}}
 	    </span>
-          </span>
+          </span>-->
         <span ng-show="{{x.cancelled}}" class="label label-danger">Peruttu</span>
       </h4>
       <table class="table table-striped table-sm">
@@ -112,7 +112,13 @@
         </thead>
         <tbody>
           <tr ng-repeat="y in x.timeTableRows | filter:{'type':'DEPARTURE'}: true | filter:{'commercialStop':true}: true" autoscroll="false" class="tot{{y.actualTime | date:'HH'}}">
-            <td><a href="asema.php?as={{y.stationShortCode}}"><span ng-repeat="station in stations | filter:{'stationShortCode':y.stationShortCode}: true">{{station.stationName}}</span></a>
+            <td>
+				<a href="asema.php?as={{y.stationShortCode}}">
+					<span ng-repeat="station in stations | filter:{'stationShortCode':y.stationShortCode}: true">{{station.stationName}}</span>
+				</a>
+				<span ng-show="{{y.trainReady.accepted}}"><br>
+					<span class="label label-success">Lähtövalmiusilmoitus {{y.trainReady.timestamp | date:'H:mm:ss'}}</span>
+				</span>
             </td>
             <td>{{y.scheduledTime | date:'H:mm'}}</td>
             <td>{{y.actualTime | date:'H:mm:ss'}}&nbsp;&nbsp;
